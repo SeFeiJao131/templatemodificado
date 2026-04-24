@@ -1,10 +1,13 @@
 function App() {
   return (
-    <div>
+    <div className="container">
       <h1>Template modificado por mim</h1>
-      <h1>“Foi utilizado o template oficial do Vite com <br /> React como base, e foram realizadas <br /> modificações no código.”</h1>
+      <p>
+        Foi utilizado o template oficial do Vite com React como base, e foram realizadas
+        modificações no código.
+      </p>
     </div>
   )
 }
 
-export default App
+export default App  
